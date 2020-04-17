@@ -1,9 +1,12 @@
 #!/bin/bash
-echo "please input name"
+echo "please input name,wanna or wanan"
 read name
 if [ "$name" = "wanna" ]
 then
-	echo "hello"
-else
-	echo "sorry,the user is not on the system"
+	echo "hello,wanna"
+elif [ "$name" = "wanan" ]
+then
+	echo "sorry,this isn't the user's name"
+else 
+	echo "error"
 fi
